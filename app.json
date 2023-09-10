@@ -3,13 +3,14 @@
     "name": "deepslate",
     "slug": "deepslate",
     "version": "1.0.0",
+    "entryPoint": "src/App.tsx",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/images/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#48494a"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -17,14 +18,24 @@
     "ios": {
       "supportsTablet": true
     },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "deepslate",
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b6fda652-0872-4103-b57c-64488d6f0037"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "owner": "maisymoe",
+    "android": {
+      "package": "moe.maisy.deepslate"
     }
   }
 }
