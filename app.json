@@ -1,41 +1,35 @@
 {
-  "expo": {
-    "name": "deepslate",
-    "slug": "deepslate",
-    "version": "1.0.0",
-    "entryPoint": "src/App.tsx",
-    "orientation": "portrait",
-    "userInterfaceStyle": "dark",
-    "icon": "./assets/images/icon.png",
-    "splash": {
-      "image": "./assets/images/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#48494a"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "plugins": [
-      "expo-router"
-    ],
-    "scheme": "deepslate",
-    "experiments": {
-      "tsconfigPaths": true
-    },
-    "extra": {
-      "router": {
-        "origin": false
-      },
-      "eas": {
-        "projectId": "b6fda652-0872-4103-b57c-64488d6f0037"
-      }
-    },
-    "owner": "maisymoe",
-    "android": {
-      "package": "moe.maisy.deepslate"
+    "expo": {
+        "name": "deepslate",
+        "slug": "deepslate",
+        "scheme": "deepslate",
+        "version": "1.0.1",
+        "owner": "maisymoe",
+        "orientation": "portrait",
+        "userInterfaceStyle": "dark",
+        "icon": "./assets/images/icon.png",
+        "assetBundlePatterns": ["**/*"],
+        "splash": {
+            "image": "./assets/images/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#48494a"
+        },
+        "experiments": {
+            "tsconfigPaths": true
+        },
+        "extra": {
+            "router": {
+                "origin": false
+            },
+            "eas": {
+                "projectId": "b6fda652-0872-4103-b57c-64488d6f0037"
+            }
+        },
+        "android": {
+            "package": "moe.maisy.deepslate"
+        },
+        "ios": {
+            "supportsTablet": true
+        }
     }
-  }
 }

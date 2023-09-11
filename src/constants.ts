@@ -1,4 +1,4 @@
-export const colors = {
+export const Colors = {
     BACKGROUND_PRIMARY: "#48494a",
     BACKGROUND_SECONDARY: "#313233",
     ACCENT: "#3c8527",
@@ -7,12 +7,12 @@ export const colors = {
     TEXT_MUTED: "#c6c7ca",
 }
 
-export const icons = {
+export const Icons = {
     CraftingTable: require("../assets/icons/CraftingTable.png"),
     RedstoneLamp: require("../assets/icons/RedstoneLamp.png"),
 }
 
-export const fonts = {
+export const Fonts = {
     Mojangles: require("../assets/fonts/Mojangles.otf"),
 }
 
