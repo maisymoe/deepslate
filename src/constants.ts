@@ -16,7 +16,10 @@ export const Icons = {
 }
 
 export const Fonts = {
-    Mojangles: require("../assets/fonts/Mojangles.otf"),
+    "Minecraft-Five": require("../assets/fonts/Minecraft-Five.otf"),
+    "Minecraft-Five-Bold": require("../assets/fonts/Minecraft-Five-Bold.otf"),
+    "Minecraft-Seven": require("../assets/fonts/Minecraft-Seven.otf"),
+    "Minecraft-Ten": require("../assets/fonts/Minecraft-Ten.otf"),
 }
 
 export enum HeaderSizes {

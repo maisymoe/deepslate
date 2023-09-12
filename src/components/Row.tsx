@@ -26,6 +26,8 @@ const styles = StyleSheet.create({
     borderOuter: {
         borderColor: Colors.BORDER_TERTIARY,
         borderWidth: 2,
+        backgroundColor: Colors.BORDER_TERTIARY,
+        verticalAlign: "middle"
     },
     borderInner: {
         backgroundColor: Colors.BACKGROUND_PRIMARY,
